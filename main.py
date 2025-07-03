@@ -39,8 +39,8 @@ if not os.path.isfile("Setting.json"):
     with open("Setting.json", "w") as f:
         json.dump({"timename": "off", "timebio": "off", "online": "off", "playing": "off", "typing": "off"}, f, indent=6)
 
-api_id = 26418454
-api_hash = '8f23d087ad6db0d5e02263e771087a0f'
+api_id = 21144930
+api_hash = '48b5db06cda7329621764873f98229a7'
 app = Client("CodeCraftersTeam", api_id, api_hash)
 
 data = read_json("Setting.json")
